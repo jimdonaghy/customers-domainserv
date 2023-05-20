@@ -13,7 +13,7 @@ import jakarta.ws.rs.core.Response;
 
 import org.bson.types.ObjectId;
 
-@Path("/entity/accounts")
+@Path("/accounts")
 @Consumes("application/json")
 @Produces("application/json")
 public class AccountResource {
